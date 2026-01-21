@@ -1,0 +1,93 @@
+name: Notify Production Server
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  notify_changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Prepare Webhook Payload
+        id: prepare
+        run: |
+          TIMESTAMP=$(date +%s)
+          cat > payload.json << EOF
+          {
+            "repository": "sei-compilados",
+            "branch": "main",
+            "timestamp": ${TIMESTAMP}
+          }
+          EOF
+          echo "timestamp=${TIMESTAMP}" >> $GITHUB_OUTPUT
+
+      - name: Sign Payload (usando OpenSSL)
+        id: sign
+        env:
+          PRIVATE_KEY: ${{ secrets.WEBHOOK_PRIVATE_KEY }}
+        run: |
+          # Decodificar llave privada (doble decode porque viene codificada en base64)
+          echo "${PRIVATE_KEY}" | base64 -d > private_key.pem
+
+          # Leer payload
+          PAYLOAD=$(cat payload.json)
+
+          # Firmar usando OpenSSL
+          SIGNATURE=$(echo -n "${PAYLOAD}" | \
+            openssl dgst -sha256 -sign private_key.pem | \
+            base64 -w 0)
+
+          # Guardar firma
+          echo "signature=${SIGNATURE}" >> $GITHUB_OUTPUT
+
+          # Limpiar llave por seguridad
+          rm private_key.pem
+
+      - name: Send Webhook to Deploy Server
+        env:
+          DEPLOY_SERVER_URL: ${{ secrets.DEPLOY_SERVER_URL }}
+        run: |
+          PAYLOAD=$(cat payload.json)
+          SIGNATURE="${{ steps.sign.outputs.signature }}"
+
+          # Enviar request
+          RESPONSE=$(curl -X POST "${DEPLOY_SERVER_URL}/api/webhook/submodule" \
+            -H "Content-Type: application/json" \
+            -H "X-Webhook-Signature: ${SIGNATURE}" \
+            -d "${PAYLOAD}" \
+            -w "\n%{http_code}" \
+            --silent --show-error)
+
+          # Separar código de respuesta del body
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+          BODY=$(echo "$RESPONSE" | sed '$d')
+
+          echo "Response: ${BODY}"
+          echo "HTTP Status: ${HTTP_CODE}"
+
+          # Verificar que la respuesta fue exitosa
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "❌ Webhook failed with status ${HTTP_CODE}"
+            exit 1
+          fi
+
+          echo "✅ Webhook sent successfully"
+
+      - name: Verify Deployment Status
+        env:
+          DEPLOY_SERVER_URL: ${{ secrets.DEPLOY_SERVER_URL }}
+        run: |
+          # Opcional: verificar el estado del despliegue
+          RESPONSE=$(curl "${DEPLOY_SERVER_URL}/api/status" --silent)
+          echo "Current server status:"
+          echo "${RESPONSE}" | jq '.'
+
+          # Extraer información específica si es necesario
+          BRANCH=$(echo "${RESPONSE}" | jq -r '.data.current_branch')
+          echo "Current branch: ${BRANCH}"
