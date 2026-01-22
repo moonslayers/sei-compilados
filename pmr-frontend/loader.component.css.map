@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/loader/loader.component.css"],
+  "sourcesContent": [".loader-div {\n    height: 100vh;\n    width: 100vw;\n    backdrop-filter: blur(8px);\n    position: fixed;\n    top: 0;\n    left: 0;\n    z-index: 9999;\n}\n\n.loader {\n    display: inliine;\n    border: 10px solid #8f808000;\n    /* Light grey */\n    border-top: 10px solid #07262f;\n    /* Blue */\n    border-radius: 50%;\n    width: 120px;\n    height: 120px;\n    animation: spin 1s linear infinite;\n    position: absolute;\n    top: calc(50% - 60px);\n    left: calc(50% - 60px);\n    background-color: rgba(255, 255, 255, 0.164);\n    z-index: 999;\n}\n\n@keyframes spin {\n    0% {\n        transform: rotate(0deg);\n    }\n\n    100% {\n        transform: rotate(360deg);\n    }\n}\n"],
+  "mappings": "AAAA,CAAC,WACG,OAAQ,MACR,MAAO,MACP,wBAAiB,KAAK,KAAtB,gBAAiB,KAAK,KACtB,SAAU,MACV,IAAK,EACL,KAAM,EACN,QAAS,IACb,CAEA,CAAC,OACG,QAAS,QACT,OAAQ,KAAK,MAAM,UAEnB,WAAY,KAAK,MAAM,QAd3B,cAgBmB,IACf,MAAO,MACP,OAAQ,MACR,UAAW,KAAK,GAAG,OAAO,SAC1B,SAAU,SACV,IAAK,KAAK,IAAI,EAAE,MAChB,KAAM,KAAK,IAAI,EAAE,MACjB,iBAAkB,UAClB,QAAS,GACb,CAEA,WARe,KASX,GACI,UAAW,OAAO,EACtB,CAEA,GACI,UAAW,OAAO,OACtB,CACJ",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/pie-chart/graph-pie/graph-pie.component.css"],
+  "sourcesContent": [".charts-css.pie {\n  --start: 0;\n  --end: 1;\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  margin: 20px\n}\n"],
+  "mappings": "AAAA,CAAC,UAAU,CAAC,IACV,SAAS,EACT,OAAO,EACP,MAAO,MACP,OAAQ,MAJV,cAKiB,IALjB,OAMU,IACV",
+  "names": []
+}

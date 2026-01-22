@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/main.routes.ts"],
+  "sourcesContent": ["import { Routes } from \"@angular/router\";\n\nexport const mainRoutes: Routes = [\n  {\n    path: '',\n    redirectTo: 'inicio',\n    pathMatch: 'full'\n  },\n  {\n    path: 'inicio',\n    loadComponent: () => import('./welcome/welcome.component').then(c => c.WelcomeComponent)\n  },\n  {\n    path: 'usuarios',\n    title: 'Usuarios',\n    loadChildren: () => import('./usuarios/usuarios.routes').then(m => m.usuariosRoutes)\n  },\n  {\n    path: 'externos',\n    title: 'Externos',\n    loadChildren: () => import('./externos/externos.routes').then(m => m.externosRoutes)\n  },\n  {\n    path: 'internos',\n    title: 'Internos',\n    loadChildren: () => import('./internos/internos.routes').then(m => m.internosRoutes)\n  },\n]"],
+  "mappings": "4BAEO,IAAMA,EAAqB,CAChC,CACEC,KAAM,GACNC,WAAY,SACZC,UAAW,QAEb,CACEF,KAAM,SACNG,cAAeA,IAAM,OAAO,qBAA6B,EAAEC,KAAKC,GAAKA,EAAEC,gBAAgB,GAEzF,CACEN,KAAM,WACNO,MAAO,WACPC,aAAcA,IAAM,OAAO,qBAA4B,EAAEJ,KAAKK,GAAKA,EAAEC,cAAc,GAErF,CACEV,KAAM,WACNO,MAAO,WACPC,aAAcA,IAAM,OAAO,qBAA4B,EAAEJ,KAAKK,GAAKA,EAAEE,cAAc,GAErF,CACEX,KAAM,WACNO,MAAO,WACPC,aAAcA,IAAM,OAAO,qBAA4B,EAAEJ,KAAKK,GAAKA,EAAEG,cAAc,EACpF",
+  "names": ["mainRoutes", "path", "redirectTo", "pathMatch", "loadComponent", "then", "c", "WelcomeComponent", "title", "loadChildren", "m", "usuariosRoutes", "externosRoutes", "internosRoutes"]
+}
