@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/main.routes.ts"],
+  "sourcesContent": ["import { Routes } from \"@angular/router\";\n\nexport const mainRoutes: Routes = [\n  {\n    path: '',\n    redirectTo: 'inicio',\n    pathMatch: 'full'\n  },\n  {\n    path: 'inicio',\n    loadComponent: () => import('./welcome/welcome.component').then(c => c.WelcomeComponent)\n  },\n  {\n    path: 'usuarios',\n    title: 'Usuarios',\n    loadChildren: () => import('./usuarios/usuarios.routes').then(m => m.usuariosRoutes)\n  },\n  {\n    path: 'formulario',\n    title: 'Formulario',\n    loadChildren: () => import('./formulario-inhibidores/formulario-inhibidores.routes').then(m => m.formularioInhibidoresRoutes)\n  },\n  {\n    path: 'solicitudes',\n    title: 'Solicitudes',\n    loadChildren: () => import('./solicitudes/solicitudes.routes').then(m => m.solicitudesRoutes)\n  }\n]"],
+  "mappings": "4BAEO,IAAMA,EAAqB,CAChC,CACEC,KAAM,GACNC,WAAY,SACZC,UAAW,QAEb,CACEF,KAAM,SACNG,cAAeA,IAAM,OAAO,qBAA6B,EAAEC,KAAKC,GAAKA,EAAEC,gBAAgB,GAEzF,CACEN,KAAM,WACNO,MAAO,WACPC,aAAcA,IAAM,OAAO,qBAA4B,EAAEJ,KAAKK,GAAKA,EAAEC,cAAc,GAErF,CACEV,KAAM,aACNO,MAAO,aACPC,aAAcA,IAAM,OAAO,qBAAwD,EAAEJ,KAAKK,GAAKA,EAAEE,2BAA2B,GAE9H,CACEX,KAAM,cACNO,MAAO,cACPC,aAAcA,IAAM,OAAO,qBAAkC,EAAEJ,KAAKK,GAAKA,EAAEG,iBAAiB,EAC7F",
+  "names": ["mainRoutes", "path", "redirectTo", "pathMatch", "loadComponent", "then", "c", "WelcomeComponent", "title", "loadChildren", "m", "usuariosRoutes", "formularioInhibidoresRoutes", "solicitudesRoutes"]
+}

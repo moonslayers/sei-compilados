@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/tabla/tabla-actions/tabla-actions.component.css"],
+  "sourcesContent": ["/* Estilos para botones de acci\u00F3n de tabla */\n.hstack-gap-1 {\n  gap: 0.25rem;\n}\n\n.btn-group-actions .btn {\n  border-radius: 0.2rem;\n  transition: transform 0.15s ease-in-out;\n}\n\n.btn-group-actions .btn:hover {\n  transform: translateY(-1px);\n}\n\n/* Responsive para botones en m\u00F3viles */\n@media (max-width: 768px) {\n  .btn-group-actions .btn {\n    padding: 0.25rem 0.5rem;\n    font-size: 0.875rem;\n  }\n}"],
+  "mappings": "AACA,CAAC,aACC,IAAK,MACP,CAEA,CAAC,kBAAkB,CAAC,IALpB,cAMiB,MACf,WAAY,UAAU,KAAM,WAC9B,CAEA,CALC,kBAKkB,CALC,GAKG,OACrB,UAAW,WAAW,KACxB,CAGA,OAAO,CAAC,SAAS,EAAE,OACjB,CAXD,kBAWoB,CAXD,IALpB,QAiBa,OAAQ,MACjB,UAAW,OACb,CACF",
+  "names": []
+}
