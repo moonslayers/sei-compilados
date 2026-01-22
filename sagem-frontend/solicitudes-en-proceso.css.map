@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/solicitudes/solicitudes-en-proceso/solicitudes-en-proceso.css"],
+  "sourcesContent": ["/* Card hover effect */\n.hover-card {\n  transition: all 0.3s ease;\n  border: 1px solid #e9ecef !important;\n}\n\n.hover-card:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;\n}"],
+  "mappings": "AACA,CAAC,WACC,WAAY,IAAI,IAAK,KACrB,OAAQ,IAAI,MAAM,iBACpB,CAEA,CALC,UAKU,OACT,UAAW,WAAW,MACtB,WAAY,EAAE,MAAO,KAAK,mBAC5B",
+  "names": []
+}

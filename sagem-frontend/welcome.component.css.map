@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/welcome/welcome.component.css"],
+  "sourcesContent": [".min-vh-100 {\n  min-height: 100vh;\n}\n\n.card {\n  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;\n}\n\n.card:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);\n}\n\n.badge {\n  padding: 0.5em 1em;\n  font-weight: 500;\n}\n\n.display-4 {\n  font-size: 2.5rem;\n  font-weight: 700;\n}\n\n@media (max-width: 768px) {\n  .display-4 {\n    font-size: 2rem;\n  }\n}"],
+  "mappings": "AAAA,CAAC,WACC,WAAY,KACd,CAEA,CAAC,KACC,WAAY,UAAU,IAAK,WAAW,CAAE,WAAW,IAAK,WAC1D,CAEA,CAJC,IAII,OACH,UAAW,WAAW,MACtB,WAAY,EAAE,IAAI,KAAK,SACzB,CAEA,CAAC,MAbD,QAcW,KAAM,IACf,YAAa,GACf,CAEA,CAAC,UACC,UAAW,OACX,YAAa,GACf,CAEA,OAAO,CAAC,SAAS,EAAE,OACjB,CAND,UAOG,UAAW,IACb,CACF",
+  "names": []
+}

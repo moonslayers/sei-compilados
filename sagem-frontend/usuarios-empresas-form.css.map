@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/usuarios/usuarios-empresas-form/usuarios-empresas-form.css"],
+  "sourcesContent": ["/* Estilos espec\u00EDficos para el formulario de empresa */\n\n.card {\n  border: none;\n  border-radius: 0.5rem;\n}\n\n.card-header {\n  border-radius: 0.5rem 0.5rem 0 0 !important;\n}\n\n.form-label {\n  font-weight: 500;\n  color: #495057;\n}\n\n.input-group-text {\n  background-color: #f8f9fa;\n  border-color: #ced4da;\n}\n\n.invalid-feedback {\n  font-size: 0.875rem;\n}\n\n.btn {\n  border-radius: 0.375rem;\n  font-weight: 500;\n}\n\nh5 {\n  color: #495057;\n  font-weight: 600;\n}\n\n.spinner-border {\n  width: 3rem;\n  height: 3rem;\n}\n\n/* Espaciado adicional para secciones */\n.mb-4 h5 {\n  margin-bottom: 1rem;\n}\n\n/* Mejoras de accesibilidad */\n.form-check-input:checked {\n  background-color: #0d6efd;\n  border-color: #0d6efd;\n}\n\n.form-check-input:focus {\n  border-color: #86b7fe;\n  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);\n}"],
+  "mappings": "AAEA,CAAC,KACC,OAAQ,KAHV,cAIiB,KACjB,CAEA,CAAC,YAPD,cAQiB,MAAO,MAAO,EAAE,WACjC,CAEA,CAAC,WACC,YAAa,IACb,MAAO,OACT,CAEA,CAAC,iBACC,iBAAkB,QAClB,aAAc,OAChB,CAEA,CAAC,iBACC,UAAW,OACb,CAEA,CAAC,IAzBD,cA0BiB,QACf,YAAa,GACf,CAEA,GACE,MAAO,QACP,YAAa,GACf,CAEA,CAAC,eACC,MAAO,KACP,OAAQ,IACV,CAGA,CAAC,KAAK,GACJ,cAAe,IACjB,CAGA,CAAC,gBAAgB,SACf,iBAAkB,QAClB,aAAc,OAChB,CAEA,CALC,gBAKgB,OACf,aAAc,QACd,WAAY,EAAE,EAAE,EAAE,OAAQ,SAC5B",
+  "names": []
+}

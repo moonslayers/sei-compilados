@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/solicitudes/solicitudes-form/solicitudes-form.css"],
+  "sourcesContent": ["/* src/app/components/solicitud-creacion/solicitud-creacion.component.css */\n\n.border-dashed {\n  border-style: dashed !important;\n  transition: background-color 0.2s, border-color 0.2s;\n}\n\n.border-dashed:hover {\n  background-color: #e9ecef;\n  border-color: #6c757d;\n  cursor: pointer;\n}"],
+  "mappings": "AAEA,CAAC,cACC,aAAc,iBACd,WAAY,iBAAiB,GAAI,CAAE,aAAa,GAClD,CAEA,CALC,aAKa,OACZ,iBAAkB,QAClB,aAAc,QACd,OAAQ,OACV",
+  "names": []
+}

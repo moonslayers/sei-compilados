@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/controllers/empresa.service.ts"],
+  "sourcesContent": ["import { Injectable } from \"@angular/core\";\nimport { SuperService } from \"./super.service\";\nimport { Empresa } from \"../models/empresa\";\n\n@Injectable({\n    providedIn:'root'\n})\nexport class EmpresaService extends SuperService<Empresa> {\n    protected model = 'empresas';\n    protected columns: (keyof Empresa)[] = [\n        'tipo_persona',\n        'rfc',\n        'razon_social',\n        'nombre_comercial',\n        'sector_comercial_id',\n        'actividad_economica_id',\n        'tipo_empresa_id',\n        'pais_procedencia',\n        'nombre_solicitante',\n        'cargo_solicitante',\n        'correo_solicitante',\n        'telefono_solicitante',\n        'municipio_id',\n        'numero_empleados_directos',\n        'solicitante_id',\n        'created_by',\n        'deleted_at',\n        'created_at'\n    ]\n}"],
+  "mappings": "uFAOA,IAAaA,GAAe,IAAA,CAAtB,MAAOA,UAAuBC,CAAqB,CAC3CC,MAAQ,WACRC,QAA6B,CACnC,eACA,MACA,eACA,mBACA,sBACA,yBACA,kBACA,mBACA,qBACA,oBACA,qBACA,uBACA,eACA,4BACA,iBACA,aACA,aACA,YAAY,iEApBPH,CAAc,IAAAI,GAAdJ,CAAc,CAAA,CAAA,GAAA,6BAAdA,EAAcK,QAAdL,EAAcM,UAAAC,WAFZ,MAAM,CAAA,SAERP,CAAe,GAAA",
+  "names": ["EmpresaService", "SuperService", "model", "columns", "__ngFactoryType__", "factory", "\u0275fac", "providedIn"]
+}

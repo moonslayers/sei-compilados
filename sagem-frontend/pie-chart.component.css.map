@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/pie-chart/pie-chart.component.css"],
+  "sourcesContent": [".pie-chart-container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.pie-body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 2rem;\n}\n\n.legend-left .pie-body {\n  flex-direction: row-reverse;\n}\n\n.legend-right .pie-body {\n  flex-direction: row;\n}\n\n.legend-bottom .pie-body {\n  flex-direction: column;\n}\n"],
+  "mappings": "AAAA,CAAC,oBACC,QAAS,KACT,eAAgB,OAChB,YAAa,MACf,CAEA,CAAC,SACC,QAAS,KACT,gBAAiB,OACjB,YAAa,OACb,IAAK,IACP,CAEA,CAAC,YAAY,CAPZ,SAQC,eAAgB,WAClB,CAEA,CAAC,aAAa,CAXb,SAYC,eAAgB,GAClB,CAEA,CAAC,cAAc,CAfd,SAgBC,eAAgB,MAClB",
+  "names": []
+}
