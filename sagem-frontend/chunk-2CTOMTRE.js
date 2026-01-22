@@ -1,0 +1,2 @@
+import"./chunk-UTAY5AUX.js";var o=[{path:"",redirectTo:"inicio",pathMatch:"full"},{path:"inicio",loadComponent:()=>import("./chunk-UYZTTXLC.js").then(t=>t.WelcomeComponent)},{path:"usuarios",title:"Usuarios",loadChildren:()=>import("./chunk-G5SNVR5S.js").then(t=>t.usuariosRoutes)},{path:"solicitudes",title:"Solicitudes",loadChildren:()=>import("./chunk-2S52XI7E.js").then(t=>t.solicitudesRoutes)},{path:"catalogos",title:"Cat\xE1logos",loadChildren:()=>import("./chunk-GDFYD3PS.js").then(t=>t.catalogosRoutes)}];export{o as mainRoutes};
+//# sourceMappingURL=chunk-2CTOMTRE.js.map
