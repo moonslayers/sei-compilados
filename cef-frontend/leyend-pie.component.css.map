@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/pie-chart/leyend-pie/leyend-pie.component.css"],
+  "sourcesContent": [".legend-color {\n  display: inline-block;\n  width: 12px;\n  height: 12px;\n  margin-right: 8px;\n  vertical-align: middle;\n}\n\n/*Esto no funciona*/\nul.charts-css.legend{\n  list-style: none;\n}\n"],
+  "mappings": "AAAA,CAAC,aACC,QAAS,aACT,MAAO,KACP,OAAQ,KACR,aAAc,IACd,eAAgB,MAClB,CAGA,EAAE,CAAC,UAAU,CAAC,OACZ,WAAY,IACd",
+  "names": []
+}

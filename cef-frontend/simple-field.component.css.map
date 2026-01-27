@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/generic-form/simple-field/simple-field.component.css"],
+  "sourcesContent": ["textarea.form-control {\n  resize: vertical;\n  min-height: 120px;\n  font-family: inherit;\n}\n\ntextarea.form-control-sm {\n  min-height: 80px;\n}\n"],
+  "mappings": "AAAA,QAAQ,CAAC,aACP,OAAQ,SACR,WAAY,MACZ,YAAa,OACf,CAEA,QAAQ,CAAC,gBACP,WAAY,IACd",
+  "names": []
+}
