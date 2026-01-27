@@ -33,7 +33,7 @@ jobs:
           PRIVATE_KEY: ${{ secrets.WEBHOOK_PRIVATE_KEY }}
         run: |
           # Decodificar llave privada
-          echo "${PRIVATE_KEY}" > private_key.pem
+          echo "${{ secrets.WEBHOOK_PRIVATE_KEY }}" | base64 -d > private_key.pem
 
           # Leer payload
           PAYLOAD=$(cat payload.json)
