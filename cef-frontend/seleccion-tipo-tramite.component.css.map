@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/externos/seleccion-tipo-tramite/seleccion-tipo-tramite.component.css"],
+  "sourcesContent": [".bi-icon-tramite {\n  font-size: 4rem;\n}\n\n.card {\n  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;\n}\n\n.clickable-card:hover,\n.clickable-card:focus {\n  transform: translateY(-5px);\n  box-shadow: 0 12px 35px rgba(106, 28, 50, 0.2) !important;\n}\n\n.clickable-card:focus-visible {\n  outline: 2px solid #0d6efd;\n  outline-offset: 4px;\n}\n\n.display-4 {\n  font-size: 3.5rem;\n  font-weight: 700;\n}\n\n@media (max-width: 768px) {\n  .display-4 {\n    font-size: 2.5rem;\n  }\n\n  .card-body {\n    padding: 1.5rem;\n  }\n\n  .bi {\n    font-size: 3rem !important;\n  }\n}\n\n@media (max-width: 576px) {\n  .display-4 {\n    font-size: 2rem;\n  }\n\n  h3.card-title {\n    font-size: 1.25rem;\n  }\n\n  p.card-text {\n    font-size: 0.9rem;\n  }\n}\n"],
+  "mappings": "AAAA,CAAC,gBACC,UAAW,IACb,CAEA,CAAC,KACC,WAAY,UAAU,IAAK,WAAW,CAAE,WAAW,IAAK,WAC1D,CAEA,CAAC,cAAc,OACf,CADC,cACc,OACb,UAAW,WAAW,MACtB,WAAY,EAAE,KAAK,KAAK,mBAC1B,CAEA,CANC,cAMc,eACb,QAAS,IAAI,MAAM,QACnB,eAAgB,GAClB,CAEA,CAAC,UACC,UAAW,OACX,YAAa,GACf,CAEA,OAAO,UAAY,OACjB,CAND,UAOG,UAAW,MACb,CAEA,CAAC,UA7BH,QA8Ba,MACX,CAEA,CAAC,GACC,UAAW,cACb,CACF,CAEA,OAAO,UAAY,OACjB,CApBD,UAqBG,UAAW,IACb,CAEA,EAAE,CAAC,WACD,UAAW,OACb,CAEA,CAAC,CAAC,UACA,UAAW,KACb,CACF",
+  "names": []
+}
