@@ -1,2 +1,0 @@
-import"./chunk-KFUIWQMZ.js";var o=[{path:"",redirectTo:"inicio",pathMatch:"full"},{path:"inicio",loadComponent:()=>import("./chunk-YLB2HK2Z.js").then(t=>t.InicioComponent)},{path:"usuarios",title:"Usuarios",loadChildren:()=>import("./chunk-D2CCC64Y.js").then(t=>t.usuariosRoutes)},{path:"externos",title:"Externos",loadChildren:()=>import("./chunk-KCQ56HQ5.js").then(t=>t.externosRoutes)}];export{o as mainRoutes};
-//# sourceMappingURL=chunk-36AIA7GB.js.map

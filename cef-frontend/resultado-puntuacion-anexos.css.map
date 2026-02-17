@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/main/externos/resultado-puntuacion-anexos/resultado-puntuacion-anexos.css"],
-  "sourcesContent": ["/* Animaci\uFFFDn para el \uFFFDcono de recarga */\n.spin {\n    animation: spin 1s linear infinite;\n}\n\n@keyframes spin {\n    from {\n        transform: rotate(0deg);\n    }\n    to {\n        transform: rotate(360deg);\n    }\n}\n\n/* Transici\uFFFDn suave para las filas de la tabla */\n.anexo-row {\n    transition: all 0.2s ease-in-out;\n}\n\n.anexo-row:hover {\n    background-color: rgba(0, 0, 0, 0.02);\n    transform: scale(1.01);\n}\n\n/* Sombra mejorada para la card principal */\n.card.shadow-lg {\n    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15) !important;\n}\n\n/* Mejora visual para los badges */\n.badge {\n    font-weight: 500;\n    letter-spacing: 0.3px;\n}\n\n/* Responsividad para dispositivos peque\uFFFDos */\n@media (max-width: 768px) {\n    .table th,\n    .table td {\n        font-size: 0.9rem;\n        padding: 0.75rem 0.5rem;\n    }\n\n    .badge {\n        font-size: 0.8rem !important;\n        padding: 0.35rem 0.6rem !important;\n    }\n}\n"],
-  "mappings": "AACA,CAAC,KACG,UAAW,KAAK,GAAG,OAAO,QAC9B,CAEA,WAJC,KAKG,GACI,UAAW,OAAO,EACtB,CACA,GACI,UAAW,OAAO,OACtB,CACJ,CAGA,CAAC,UACG,WAAY,IAAI,IAAK,WACzB,CAEA,CAJC,SAIS,OACN,iBAAkB,UAClB,UAAW,MAAM,KACrB,CAGA,CAAC,IAAI,CAAC,UACF,WAAY,EAAE,MAAO,OAAO,mBAChC,CAGA,CAAC,MACG,YAAa,IACb,eAAgB,IACpB,CAGA,OAAO,UAAY,OACf,CAAC,MAAM,GACP,CADC,MACM,GACH,UAAW,MAvCnB,QAwCiB,OAAQ,KACrB,CAEA,CAbH,MAcO,UAAW,gBA5CnB,QA6CiB,OAAQ,eACrB,CACJ",
-  "names": []
-}
