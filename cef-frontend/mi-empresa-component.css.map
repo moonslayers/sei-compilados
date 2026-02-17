@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/externos/mi-empresa-component/mi-empresa-component.css"],
+  "sourcesContent": ["/* Estilos de tabs personalizados */\n.nav-tabs {\n  border-bottom: 2px solid #dee2e6;\n}\n\n.nav-tabs .nav-link {\n  border: none;\n  border-bottom: 3px solid transparent;\n  color: #6c757d;\n  font-weight: 500;\n  padding: 1rem 1.5rem;\n  transition: all 0.3s ease;\n}\n\n.nav-tabs .nav-link:hover {\n  color: var(--secondary);\n  background-color: rgba(13, 110, 253, 0.05);\n}\n\n.nav-tabs .nav-link.active {\n  border-bottom: 3px solid var(--secondary);\n  color: var(--secondary);\n  background-color: rgba(13, 110, 253, 0.1);\n  font-weight: 600;\n}\n\n.nav-tabs .nav-link i {\n  font-size: 1.2rem;\n}\n"],
+  "mappings": "AACA,CAAC,SACC,cAAe,IAAI,MAAM,OAC3B,CAEA,CAJC,SAIS,CAAC,SACT,OAAQ,KACR,cAAe,IAAI,MAAM,YACzB,MAAO,QACP,YAAa,IATf,QAUW,KAAK,OACd,WAAY,IAAI,IAAK,IACvB,CAEA,CAbC,SAaS,CATC,QASQ,OACjB,MAAO,IAAI,aACX,iBAAkB,SACpB,CAEA,CAlBC,SAkBS,CAdC,QAcQ,CAAC,OAClB,cAAe,IAAI,MAAM,IAAI,aAC7B,MAAO,IAAI,aACX,iBAAkB,UAClB,YAAa,GACf,CAEA,CAzBC,SAyBS,CArBC,SAqBS,EAClB,UAAW,MACb",
+  "names": []
+}
