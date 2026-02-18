@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/externos/status-tramite/status-tramite.css"],
+  "sourcesContent": [".list-group-item.disabled {\n  opacity: 0.5;\n  cursor: not-allowed;\n}\n\n.list-group-item.active {\n  background-color: var(--primary);\n  border-color: var(--primary);\n}\n\n.progress-bar {\n  transition: width 0.3s ease;\n}\n"],
+  "mappings": "AAAA,CAAC,eAAe,CAAC,SACf,QAAS,GACT,OAAQ,WACV,CAEA,CALC,eAKe,CAAC,OACf,iBAAkB,IAAI,WACtB,aAAc,IAAI,UACpB,CAEA,CAAC,aACC,WAAY,MAAM,IAAK,IACzB",
+  "names": []
+}
