@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/externos/shared/tramite-generacion-empleos/tramite-generacion-empleos.css"],
+  "sourcesContent": [".tramite-generacion-empleos {\n  .card {\n    border-radius: 0.5rem;\n  }\n\n  .table {\n    font-size: 0.875rem;\n\n    th {\n      font-weight: 600;\n      font-size: 0.8125rem;\n    }\n\n    td {\n      vertical-align: middle;\n    }\n\n    tfoot td {\n      font-size: 0.875rem;\n    }\n  }\n\n  .badge {\n    font-size: 0.75rem;\n    font-weight: 500;\n  }\n\n  .btn-group-sm .btn {\n    padding: 0.25rem 0.5rem;\n  }\n}\n"],
+  "mappings": "AAAA,CAAC,2BACC,CAAC,KADH,cAEmB,KACjB,CAHF,CAAC,2BAKC,CAAC,MACC,UAAW,OAcb,CApBF,CAAC,2BAKC,CAAC,MAGC,GACE,YAAa,IACb,UAAW,QACb,CAXJ,CAAC,2BAKC,CAAC,MAQC,GACE,eAAgB,MAClB,CAfJ,CAAC,2BAKC,CAAC,MAYC,MAAM,GACJ,UAAW,OACb,CAnBJ,CAAC,2BAsBC,CAAC,MACC,UAAW,OACX,YAAa,GACf,CAzBF,CAAC,2BA2BC,CAAC,aAAa,CAAC,IA3BjB,QA4Ba,OAAQ,KACnB",
+  "names": []
+}
