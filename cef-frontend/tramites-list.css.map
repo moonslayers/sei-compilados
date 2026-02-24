@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/tramites/tramites-list/tramites-list.css"],
+  "sourcesContent": [".card {\n  transition: all 0.2s ease-in-out;\n}\n\n.card:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;\n}\n\n.btn {\n  transition: all 0.15s ease-in-out;\n}\n\n.btn:hover {\n  transform: translateY(-1px);\n}\n"],
+  "mappings": "AAAA,CAAC,KACC,WAAY,IAAI,IAAK,WACvB,CAEA,CAJC,IAII,OACH,UAAW,WAAW,MACtB,WAAY,EAAE,MAAO,KAAK,mBAC5B,CAEA,CAAC,IACC,WAAY,IAAI,KAAM,WACxB,CAEA,CAJC,GAIG,OACF,UAAW,WAAW,KACxB",
+  "names": []
+}

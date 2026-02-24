@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/tramites/tramites-detalles/tabs/info-general/info-general.component.css"],
+  "sourcesContent": [".card-hover {\n  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;\n}\n\n.card-hover:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;\n}\n"],
+  "mappings": "AAAA,CAAC,WACC,WAAY,UAAU,IAAK,WAAW,CAAE,WAAW,IAAK,WAC1D,CAEA,CAJC,UAIU,OACT,UAAW,WAAW,MACtB,WAAY,EAAE,MAAO,KAAK,mBAC5B",
+  "names": []
+}
