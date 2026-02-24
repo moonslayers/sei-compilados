@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/externos/shared/tramite-anexo-fuera-cabecera-municipal/tramite-anexo-fuera-cabecera-municipal.css"],
+  "sourcesContent": [".tramite-anexo-fuera-cabecera-municipal {\n  .anexo-text {\n    p {\n      line-height: 1.6;\n      text-align: justify;\n    }\n  }\n}\n"],
+  "mappings": "AAAA,CAAC,uCACC,CAAC,WACC,EACE,YAAa,IACb,WAAY,OACd",
+  "names": []
+}
