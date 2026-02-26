@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/environments/environment.servidor-gobierno.ts"],
-  "sourcesContent": ["export const environment = {\n    app_name: 'Sistema de Competividad y Estímulos Fiscales',\n    app_prefix : 'CEF',\n    api_url: 'https://sei-apps.bajacalifornia.gob.mx/cef',\n    logo_name: 'main_logo.png',\n};\n"],
-  "mappings": "AAAO,IAAMA,EAAc,CACvBC,SAAU,kDACVC,WAAa,MACbC,QAAS,6CACTC,UAAW",
-  "names": ["environment", "app_name", "app_prefix", "api_url", "logo_name"]
-}
