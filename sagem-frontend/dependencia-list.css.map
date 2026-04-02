@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/catalogos/dependencia-list/dependencia-list.css"],
+  "sourcesContent": ["/* Estilos para la lista de dependencias */\n.nav-tabs .nav-link {\n    cursor: pointer;\n}\n\n.nav-tabs .nav-link.active {\n    font-weight: bold;\n    border-bottom: 3px solid var(--bs-primary);\n}"],
+  "mappings": "AACA,CAAC,SAAS,CAAC,SACP,OAAQ,OACZ,CAEA,CAJC,SAIS,CAJC,QAIQ,CAAC,OAChB,YAAa,IACb,cAAe,IAAI,MAAM,IAAI,aACjC",
+  "names": []
+}
