@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/main/externos/shared/tabla-empleos-directos/tabla-empleos-directos.css"],
+  "sourcesContent": [".card {\n  border-radius: 0.5rem;\n}\n\n.table {\n  font-size: 0.875rem;\n\n  th {\n    font-weight: 600;\n    font-size: 0.8125rem;\n  }\n\n  td {\n    vertical-align: middle;\n  }\n\n  tfoot td {\n    font-size: 0.875rem;\n  }\n}\n\n.badge {\n  font-size: 0.75rem;\n  font-weight: 500;\n}\n\n.btn-group-sm .btn {\n  padding: 0.25rem 0.5rem;\n}\n"],
+  "mappings": "AAAA,CAAC,KAAD,cACiB,KACjB,CAEA,CAAC,MACC,UAAW,OAcb,CAfA,CAAC,MAGC,GACE,YAAa,IACb,UAAW,QACb,CANF,CAAC,MAQC,GACE,eAAgB,MAClB,CAVF,CAAC,MAYC,MAAM,GACJ,UAAW,OACb,CAGF,CAAC,MACC,UAAW,OACX,YAAa,GACf,CAEA,CAAC,aAAa,CAAC,IA1Bf,QA2BW,OAAQ,KACnB",
+  "names": []
+}
