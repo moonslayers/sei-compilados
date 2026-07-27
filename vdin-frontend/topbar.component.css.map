@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/ejecutivos/components/topbar/topbar.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.topbar .vr {\n  color: rgba(255, 255, 255, 0.5);\n}\n\n.topbar-btn {\n  color: #fff;\n  border: 0;\n  background: rgba(255, 255, 255, 0.1);\n  backdrop-filter: blur(6px);\n  -webkit-backdrop-filter: blur(6px);\n\n  &:hover,\n  &:focus-visible {\n    color: #fff;\n    background: rgba(255, 255, 255, 0.18);\n  }\n\n  &:focus-visible {\n    outline: 2px solid rgba(255, 255, 255, 0.75);\n    outline-offset: 2px;\n  }\n\n  &.active {\n    background: rgba(255, 255, 255, 0.25);\n  }\n}\n\n:host ::ng-deep app-brand .badge {\n  background-color: rgba(255, 255, 255, 0.18);\n  border-color: rgba(255, 255, 255, 0.4);\n  color: #fff;\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MAGF,CAAA,OAAA,CAAA,GACE,MAAA,UAGF,CAAA,WACE,MAAA,KACA,OAAA,EACA,WAAA,UACA,gBAAA,KAAA,KACA,wBAAA,KAAA,KAEA,CAPF,UAOE,OAAA,CAPF,UAOE,eAEE,MAAA,KACA,WAAA,UAGF,CAbF,UAaE,eACE,QAAA,IAAA,MAAA,KAAA,GAAA,CAAA,GAAA,CAAA,GAAA,CAAA,KACA,eAAA,IAGF,CAlBF,UAkBE,CAAA,OACE,WAAA,UAIJ,MAAA,UAAA,UAAA,CAAA,MACE,iBAAA,UACA,aAAA,MACA,MAAA",
+  "names": []
+}

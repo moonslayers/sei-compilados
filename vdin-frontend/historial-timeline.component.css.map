@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/historial-timeline/historial-timeline.component.scss"],
+  "sourcesContent": [".timeline-list {\n  position: relative;\n  padding-left: 1.5rem;\n\n  &::before {\n    content: '';\n    position: absolute;\n    left: 0.5rem;\n    top: 0.25rem;\n    bottom: 0.25rem;\n    width: 2px;\n    background: var(--bs-border-color);\n  }\n}\n\n.timeline-item {\n  position: relative;\n  padding-bottom: 1rem;\n\n  &:last-child {\n    padding-bottom: 0;\n  }\n}\n\n.timeline-marker {\n  flex-shrink: 0;\n  width: 1rem;\n  display: flex;\n  justify-content: center;\n  padding-top: 0.25rem;\n}\n\n.timeline-dot {\n  width: 0.75rem;\n  height: 0.75rem;\n}\n\n.timeline-content {\n  min-width: 0;\n}\n"],
+  "mappings": "AAAA,CAAA,cACE,SAAA,SACA,aAAA,OAEA,CAJF,aAIE,QACE,QAAA,GACA,SAAA,SACA,KAAA,MACA,IAAA,OACA,OAAA,OACA,MAAA,IACA,WAAA,IAAA,mBAIJ,CAAA,cACE,SAAA,SACA,eAAA,KAEA,CAJF,aAIE,YACE,eAAA,EAIJ,CAAA,gBACE,YAAA,EACA,MAAA,KACA,QAAA,KACA,gBAAA,OACA,YAAA,OAGF,CAAA,aACE,MAAA,OACA,OAAA,OAGF,CAAA,iBACE,UAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/solicitud-list/solicitud-card.component.scss"],
+  "sourcesContent": [".bg-orange {\n  background-color: #fd7e14;\n}\n\n:host {\n  display: block;\n}\n\n.solicitud-card {\n  transition: box-shadow 0.15s ease-in-out;\n\n  &:hover {\n    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,UACE,iBAAA,QAGF,MACE,QAAA,MAGF,CAAA,eACE,WAAA,WAAA,KAAA,YAEA,CAHF,cAGE,OACE,WAAA,EAAA,MAAA,KAAA",
+  "names": []
+}
