@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/decreto/decreto.scss"],
+  "sourcesContent": ["@import '../../../variables';\n\n:host {\n  display: block;\n}\n\n.hero-section {\n  position: relative;\n  background: linear-gradient(to bottom, lighten($primary, 10%) 0%, $primary 100%);\n}\n\n.hover-opacity {\n  transition: opacity 0.2s ease-in-out;\n  &:hover {\n    opacity: 0.8;\n  }\n}\n\n.card-hover {\n  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;\n  &:hover {\n    transform: translateY(-3px);\n    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08) !important;\n  }\n}\n\n.badge-number {\n  font-size: 14px;\n}\n\n\n"],
+  "mappings": "AAEA,MACE,QAAA,MAGF,CAAA,aACE,SAAA,SACA,WAAA,gBAAA,GAAA,MAAA,CAAA,OAAA,CAAA,SAGF,CAAA,cACE,WAAA,QAAA,IAAA,YACA,CAFF,aAEE,OACE,QAAA,GAIJ,CAAA,WACE,WAAA,UAAA,IAAA,WAAA,CAAA,WAAA,IAAA,YACA,CAFF,UAEE,OACE,UAAA,WAAA,MACA,WAAA,EAAA,KAAA,KAAA,oBAIJ,CAAA,aACE,UAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/hero-section/hero-section.component.scss"],
+  "sourcesContent": [".hero-section {\n  height: 420px;\n  background: #fff;\n  position: relative;\n  overflow: hidden;\n\n  &::before {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-image: url('/hero-background.png');\n    background-size: cover;\n    background-position: center;\n    background-repeat: no-repeat;\n    pointer-events: none;\n    z-index: 0;\n  }\n\n  &::after {\n    content: '';\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    width: 100%;\n    height: 40%;\n    background: linear-gradient(to top, #ffffff 0%, transparent 100%);\n    pointer-events: none;\n    z-index: 1;\n  }\n\n  @media (max-width: 991.98px) {\n    height: auto;\n\n    &::before {\n      width: 100%;\n      opacity: 0.15;\n      z-index: 1;\n    }\n\n    &::after {\n      display: none;\n    }\n  }\n}\n\n.vdni-logo {\n  font-family: 'Georgia', serif;\n}\n"],
+  "mappings": "AAAA,CAAA,aACE,OAAA,MACA,WAAA,KACA,SAAA,SACA,SAAA,OAEA,CANF,YAME,QACE,QAAA,GACA,SAAA,SACA,IAAA,EACA,KAAA,EACA,MAAA,KACA,OAAA,KACA,iBAAA,0BACA,gBAAA,MACA,oBAAA,OACA,kBAAA,UACA,eAAA,KACA,QAAA,EAGF,CArBF,YAqBE,OACE,QAAA,GACA,SAAA,SACA,OAAA,EACA,KAAA,EACA,MAAA,KACA,OAAA,IACA,WAAA,gBAAA,GAAA,GAAA,CAAA,QAAA,EAAA,CAAA,YAAA,MACA,eAAA,KACA,QAAA,EAGF,OAAA,UAAA,UAjCF,CAAA,aAkCI,OAAA,KAEA,CApCJ,YAoCI,QACE,MAAA,KACA,QAAA,IACA,QAAA,EAGF,CA1CJ,YA0CI,OACE,QAAA,MAKN,CAAA,UACE,YAAA,OAAA,CAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/solicitud-list/solicitud-row.component.scss"],
+  "sourcesContent": [".bg-orange {\n  background-color: #fd7e14;\n}\n\n.dropdown-item {\n  cursor: pointer;\n\n  &:hover {\n    background-color: var(--bs-body-tertiary);\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,UACE,iBAAA,QAGF,CAAA,cACE,OAAA,QAEA,CAHF,aAGE,OACE,iBAAA,IAAA",
+  "names": []
+}
