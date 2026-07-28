@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/institutional-bar/institutional-bar.component.scss"],
+  "sourcesContent": ["@import '../../../variables';\n\n.institutional-bar-bg {\n  background-color: lighten($primary, 10%);\n}"],
+  "mappings": "AAEA,CAAA,qBACE,iBAAA",
+  "names": []
+}
