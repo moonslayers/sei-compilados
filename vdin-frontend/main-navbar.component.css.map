@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/main-navbar/main-navbar.component.scss", "src/_variables.scss"],
+  "sourcesContent": ["@import '../../../variables';\n\n.navbar-primary-dark {\n  background-color: $primary;\n}\n\n.nav-link {\n  position: relative;\n  text-decoration: none;\n\n  &.active::after {\n    content: '';\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    height: 2px;\n    background-color: $secondary;\n  }\n}\n", "// ==========================================\n// Variables de color institucionales\n// Fuente de verdad para $primary, $secondary y colores semánticos\n// Importar en styles.scss y componentes que necesiten SCSS color functions\n// ==========================================\n\n$primary: #002f2a;\n$secondary: #9f7a2c;\n$success: #2d8a5e;\n$info: #3d9e8c;\n$warning: #c49a2c;\n$danger: #c4454a;\n"],
+  "mappings": "AAEA,CAAA,oBACE,iBCGQ,QDAV,CAAA,SACE,SAAA,SACA,gBAAA,KAEA,CAJF,QAIE,CAAA,MAAA,OACE,QAAA,GACA,SAAA,SACA,OAAA,EACA,KAAA,EACA,MAAA,EACA,OAAA,IACA,iBCVQ",
+  "names": []
+}

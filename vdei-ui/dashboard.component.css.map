@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/ejecutivos/dashboard/dashboard.component.scss"],
+  "sourcesContent": [".chart-container {\n  min-height: 280px;\n}\n"],
+  "mappings": "AAAA,CAAA,gBACE,WAAA",
+  "names": []
+}

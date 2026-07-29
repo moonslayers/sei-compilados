@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/shared/ver-solicitud/ver-solicitud.component.scss"],
+  "sourcesContent": [".card {\n  .badge {\n    font-size: 0.85rem;\n  }\n}\n\n.form-control-plaintext {\n  padding-left: 0;\n  min-height: 1.5rem;\n}\n\n.cursor-pointer {\n  cursor: pointer;\n  transition: background-color 0.15s;\n\n  &:hover {\n    background-color: var(--bs-body-bg);\n  }\n}\n"],
+  "mappings": "AACE,CAAA,KAAA,CAAA,MACE,UAAA,OAIJ,CAAA,uBACE,aAAA,EACA,WAAA,OAGF,CAAA,eACE,OAAA,QACA,WAAA,iBAAA,KAEA,CAJF,cAIE,OACE,iBAAA,IAAA",
+  "names": []
+}
