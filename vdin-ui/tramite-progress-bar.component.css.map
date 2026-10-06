@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/components/tramite-progress-bar/tramite-progress-bar.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.tramite-progress-container {\n  background-color: var(--bs-body-bg);\n  border: 1px solid var(--bs-border-color);\n  border-radius: 0.5rem;\n  padding: 0.75rem 1rem;\n}\n\n.progress-title {\n  font-size: 0.875rem;\n  color: var(--bs-body-color);\n}\n\n.progress-count {\n  font-size: 0.8rem;\n}\n\n.progress {\n  height: 0.5rem;\n  background-color: var(--bs-secondary-bg);\n  border-radius: 999px;\n  overflow: hidden;\n\n  .progress-bar {\n    transition: width 0.35s ease-in-out;\n  }\n}\n\n@media (max-width: 576px) {\n  .tramite-progress-container {\n    padding: 0.75rem;\n  }\n\n  .progress-title {\n    font-size: 0.8125rem;\n  }\n\n  .progress-count {\n    font-size: 0.75rem;\n  }\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MAGF,CAAA,2BACE,iBAAA,IAAA,cACA,OAAA,IAAA,MAAA,IAAA,mBANF,cAOE,MAPF,QAQE,OAAA,KAGF,CAAA,eACE,UAAA,QACA,MAAA,IAAA,iBAGF,CAAA,eACE,UAAA,MAGF,CAAA,SACE,OAAA,MACA,iBAAA,IAAA,mBAtBF,cAuBE,MACA,SAAA,OAEA,CANF,SAME,CAAA,aACE,WAAA,MAAA,KAAA,YAIJ,OAAA,UAAA,OACE,CA5BF,2BAJA,QAiCI,OAGF,CAzBF,eA0BI,UAAA,SAGF,CAxBF,eAyBI,UAAA",
+  "names": []
+}

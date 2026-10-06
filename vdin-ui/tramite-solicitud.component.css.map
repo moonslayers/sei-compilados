@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/inversores/tramites/tramite-solicitud/tramite-solicitud.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.cursor-pointer {\n  cursor: pointer;\n}\n\n.transition-all {\n  transition: all 0.15s ease-in-out;\n}\n\n.escudo-container {\n  min-width: 72px;\n  min-height: 72px;\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MAGF,CAAA,eACE,OAAA,QAGF,CAAA,eACE,WAAA,IAAA,KAAA,YAGF,CAAA,iBACE,UAAA,KACA,WAAA",
+  "names": []
+}

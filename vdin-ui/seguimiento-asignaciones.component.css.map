@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/ejecutivos/tramites/seguimiento-asignaciones/seguimiento-asignaciones.component.scss"],
+  "sourcesContent": [".spin {\n  animation: spin 1s linear infinite;\n}\n\n@keyframes spin {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n"],
+  "mappings": "AAAA,CAAA,KACE,UAAA,KAAA,GAAA,OAAA,SAGF,WAJA,KAKE,GACE,UAAA,OAAA",
+  "names": []
+}

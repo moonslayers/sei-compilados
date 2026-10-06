@@ -1,0 +1,1 @@
+var n={pre_inversion:"Pre-inversi\xF3n",construccion:"Construcci\xF3n",operacion:"Operaci\xF3n"},e={estatal:"Estatal",municipal:"Municipal",federal:"Federal"};export{e,n};//# sourceMappingURL=chunk-DDLmY9wB.js.map

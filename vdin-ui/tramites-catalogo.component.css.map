@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/inversores/tramites/tramites-catalogo/tramites-catalogo.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n}\n\n.card {\n  overflow: hidden;\n}\n\n.hover-shadow {\n  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n\n  &:hover {\n    transform: translateY(-2px);\n    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;\n  }\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MAGF,CAAA,KACE,SAAA,OAGF,CAAA,aACE,WAAA,UAAA,KAAA,WAAA,CAAA,WAAA,KAAA,YAEA,CAHF,YAGE,OACE,UAAA,WAAA,MACA,WAAA,EAAA,MAAA,KAAA",
+  "names": []
+}
