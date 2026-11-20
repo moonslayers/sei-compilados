@@ -1,0 +1,1 @@
+var o={admin:`Administrador`,editor:`Editor`,operador:`Operador`,usuario:`Usuario`};function i(r){return o[r]}export{i as t};
